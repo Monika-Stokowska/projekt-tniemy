@@ -1,0 +1,242 @@
+	<!DOCTYPE html>
+    <html>
+    <html lang="en">
+	<head>
+    	<meta charset="UTF-8">
+    	<title>4.2</title>
+    		<link rel="stylesheet" href="tniemystyle.css">
+    </head>
+	<body>
+	<header>
+		<nav class="container navbar">
+			<div class="row">
+				<div class="col-5 your-logo"><img src="//placehold.it/150x30">
+				</div>
+				<div class="col-7">
+					<ul>
+						<li><a href="" class="home">HOME</a></li>
+						<li><a href="#">PAGES</a></li>
+						<li><a href="#">FEATURES</a></li>
+						<li><a href="#">SERVICES</a></li>
+						<li><a href="#">BLOG</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</div>	
+			</div>	
+		</nav>
+	</header>
+		<section class="hero">
+			<div class="row">
+				<div class="slogan col-offset-7 col-4">
+					<p class="slogan-text"><span class="thin-slogan">HERE YOU CAN TYPE</span></br> <span class="bold-slogan">YOUR COMPANY</br> SLOGAN</span></p>
+				</div>
+			</div>
+		</section>
+		<section class="funkcje">
+			<div class="container">
+				<div class="row">
+					<div class="col-4">
+						<div class="icon">
+							<i class="fa fa-search-plus" aria-hidden="true"></i>
+						<h4 class="research">RESEARCH</h4>
+							<p class="icon-text">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus ex, luctus a commodo quis, suscipit non eros</p>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="icon">
+							<i class="fa fa-laptop" aria-hidden="true"></i>
+						<h4 class="customizable">FULLY CUSTOMIZABLE</h4>
+							<p class="icon-text">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus ex, luctus a commodo quis, suscipit non eros</p>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="icon">
+							<i class="fa fa-cogs" aria-hidden="true"></i>
+						<h4 class="work">WORK AND WORK</h4>
+							<p class="icon-text">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus ex, luctus a commodo quis, suscipit non eros</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="works">
+			<div class="container">
+				<h2 class="featured-works">FEATURED WORKS</h2>
+				<p class="works-text">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus ex, luctus a commodo quis, suscipit non eros. </p>
+			</div>
+		</section>
+		<section class="gallery">
+			<div class="row">
+				<div class="col-2">
+					<img class="image-gallery" src="https://images.pexels.com/photos/209151/pexels-photo-209151.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+				</div>
+				<div class="col-2">
+					<img class="image-gallery" src="http://lorempixel.com/400/400/">
+				</div>
+				<div class="col-2">
+					<img class="image-gallery" src="https://static.pexels.com/photos/36990/pexels-photo.jpg">
+				</div>
+				<div class="col-2">
+					<img class="image-gallery" src="http://lorempixel.com/400/400/">
+				</div>
+				<div class="col-4">
+					<img class="image-gallery" src="https://static.pexels.com/photos/373912/pexels-photo-373912.jpeg">
+				</div>
+			</div>
+			</div>
+			<div class="row">
+				<div class="col-4">
+				 <img class="image-gallery" src="http://lorempixel.com/400/400/">
+				</div>
+				<div class="col-2">
+					<img class="image-gallery" src="http://lorempixel.com/400/400/">
+				</div>
+				<div class="col-2">
+					<img class="image-gallery" src="http://lorempixel.com/400/400/">
+				</div>
+				<div class="col-2">
+					<img class="image-gallery" src="http://lorempixel.com/400/400/">
+				</div>
+			</div>
+		</section>
+		<section class="people">
+			<div class="container">
+				<div class="row">
+					<div class="col-3">
+						<div class="single-worker">
+							<div class="layer">
+							<img class="image-worker" src="http://lorempixel.com/400/400/">
+							<h4 class="position">Dyrektor</h4>
+						<h4>Dexter Gilbert</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="single-worker">
+							<div class="layer">
+								<img class="image-worker" src="http://lorempixel.com/400/400/">
+							<h4 class="position">Dyrektor</h4>
+							<h4>Mary Collier</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="single-worker">
+							<div class="layer">
+								<img class="image-worker" src="http://lorempixel.com/400/400/">
+							<h4 class="position">Dyrektor</h4>
+							<h4>Stefan Morrison</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="single-worker">
+							<div class="layer">
+								<img class="image-worker" src="http://lorempixel.com/400/400/">
+								<h4 class="position">Dyrektor</h4>
+								<h4>Bill Smith</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+   		</section>
+   		<section class="opis">
+   			<div class="container">
+   				<div class="row">
+   					<div class="col-4">
+   						<img class="phone" src="http://lorempixel.com/400/400/">
+   					</div>
+   					<div class="col-8">
+   						<h2 class="opis">YOUR AWESOME TITLE</h2>
+   						<div class="row">
+   							<div class="col-8">
+   								<p class="opis"> Suspendisse interdum et nunc non rhoncus. Fusce auctor aliquam neque nec suscipit. Ut at accumsan sem. Morbi scelerisque bibendum dictum. Ut at augue purus. Praesent iaculis augue augue, eu ullamcorper ex mattis a. Fusce tortor ante,</p>
+   							</div>
+   							<div class="col-4">
+   								<p class="opis opis-left"> Suspendisse interdum et nunc non rhoncus. Fusce auctor aliquam neque nec suscipit. Ut at accumsan sem. Morbi scelerisque bibendum dictum.</p>
+   							</div>
+   						</div>
+   					</div>
+   				</div>
+   			</div>
+   		</section>
+   		<section class="counter">
+   			<div class="container">
+   				<div class="row">
+   					<div class=col-3>
+   						<p class="counter-number">455</p>
+   						<p class="counter-text">FOLLOWERS</p>
+   					</div>
+   						<div class=col-3>
+   							<p class="counter-number">1991</p>
+   							<p class="counter-text">SINCE</p>
+   						</div>
+   						<div class=col-3>
+   							<p class="counter-number">806</p>
+   							<p class="counter-text">HAPPY CLIENTS</p>
+   						</div>			
+   						<div class=col-3>
+   							<p class="counter-number">923</p>
+   							<p class="counter-text">PROJECTS</p>
+   						</div>
+   					</div>
+   				</div>
+   		</section>
+   		<section class="contact-info">
+   			<div class="container">
+   				<div class="col-4">
+   						<h3 class="info-h">ABOUT US<span class="line">----------------</span></h3>
+   						<p class="info-text">eu ullamcorper ex mattis a. Fusce tortor ante</p>
+   					</div>
+   					<div class="col-4">
+   						<h3 class="info-h">GET IN TOUCH <span class="line">----------------</span></h3>
+   							<div class="row">
+   								<div class="col-3">
+   									<p class="info-text text-bold"> Address:</p>
+   								</div>
+   								<div class="col-9">
+   									<p class="info-text"> 66 South Street,</br>
+                                    Window 6 Wonderland</p>
+                                </div>
+   							</div>
+                            <div class="row">
+   								<div class="col-3">
+                                <p class="info-text text-bold"> Phone:</p>
+                                </div>
+                                 <div class="col-9">
+   									<p class="info-text"> +440 875369208-Office</br>+440 353363114-Fax </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3">
+                                    <p class="info-text text-bold"> Email:</p>
+                                </div>
+                                <div class="col-9">
+   									<p class="info-text"> freepik@sitename.com </p>
+   								</div>
+   							</div>
+   					</div>
+   					<div class="col-4">
+   						<h3 class="info-h">SOCIAL MEDIA<span class="line">----------------</span></h3>
+   						<p class="info-text">eu ullamcorper ex mattis a. Fusce tortor ante</p>
+   						<section class="social">
+   							<div class="row">
+   								<ul>
+   									<li> <i class="fa fa-youtube" aria-hidden="true"></i></li>
+   							<li> <i class="fa fa-google-plus" aria-hidden="true"></i></li>
+   							<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+   							<li><i class="fa fa-dribbble" aria-hidden="true"></i></li>
+   							<li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+   							<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+   							</div>
+   						</section>
+   					</div>
+   				</div>
+   			</div>
+   		</section>
+   		<footer>
+   			<p class="footer">Copyrights 2016</p>
+   		</footer>
+	</body>	
+</html>

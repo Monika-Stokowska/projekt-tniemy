@@ -1,0 +1,306 @@
+* {
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+body {
+	margin: 0 auto;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;	
+}
+ [class*="col-"] {
+ 	float: left;
+ 	min-height: 1px; 
+ 	padding: 10px;
+ }
+.col-offset-1 {
+	margin-left: 8.33%;
+}
+.col-offset-2 {
+	margin-left: 16.66%;
+}
+.col-offset-3 {
+	margin-left: 25%;
+}
+.col-offset-4 {
+	margin-left: 33.33%;
+}
+.col-offset-5 {
+	margin-left: 41.66%;
+}
+.col-offset-6 {
+	margin-left: 50%;
+}
+.col-offset-7 {
+	margin-left:58.33%; 
+}
+.col-offset-8 {
+	margin-left: 66.66%;
+}
+.col-offset-9 {
+	margin-left: 75%;
+}
+.col-offset-10 {
+	margin-left: 83.33%;
+}
+.col-offset-11 {
+	margin-left: 91.66%;
+}
+.col-offset-12 {
+	margin-left: 100%;
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width:58.33%; 
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
+ .row:before, .row:after { 
+	content: "";
+	display: table;
+	clear: both;
+ }
+header {
+	background-color: #313234;
+	text-align: center;
+}
+header>nav>ul {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type; none;
+	float: right;
+}
+nav {
+	text-align: center;
+	display: inline-block;
+}
+nav li {
+	display: inline-block;
+}	
+.hero {
+	min-height: 300px;
+	background: url("https://www.wired.com/images_blogs/gadgetlab/images/2008/02/22/air.jpg");
+	background-repeat: no-repeat;
+	rgba (0,0,0,0.5);
+	width: 100%;
+	text-align: center;
+	background-position: center;
+	background-size: 100%;
+}
+.bold-slogan {
+	font-weight: 800;
+}
+.thin-slogan {
+	font-weight: 100;
+}
+.slogan-text {
+	text-align: justify;
+}
+.fa-search-plus, .fa-cogs {
+	color: white;
+	background: black;
+	font-size: 42px;
+	height: 100%;
+	padding: 5px;
+	border-radius: 5px;
+	
+}
+.fa-laptop {
+	height: 100%;
+	font-size: 42px;
+	color: white;
+	background-color: rgb(1, 199, 235);
+	padding: 5px;
+	border-radius: 5px;
+}
+.icon {
+	text-align: center;
+	padding: 5px;
+}
+.customizable {
+	color: rgb(1, 199, 235);
+}
+.research, .customizable, .work {
+	text-align: center;
+}
+.icon>p {
+	text-align: center;
+	color: rgb(150, 150, 150);
+	font-family: 'Montserrat', sans-serif;
+}
+.icon-text {
+	text-align:center;
+}
+.featured-works {
+	text-align: center;
+	font-weight: 800;
+	font-size: 30px;
+}
+.works-text {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(150, 150, 150);
+}
+.image-gallery  {
+	width: 100%;
+	float: left;
+	display: inline-block;
+}
+.gallery [class*='col-'] {
+	padding: 0;
+}
+.people .image-worker { border-radius: 50%;
+width: 200px;
+height: 200px;
+background-position: 100% 0;
+    background-size: 300%;
+}
+.people .image-worker:hover {
+    background-position: 0 100%;
+    color: white;
+}
+.layer {
+    position: relative;
+}
+.layer .position {
+    position: absolute;
+    top: 10%;
+    padding: 50px;
+    margin-right: 50px;
+    display: none;
+}
+.layer .position h4:hover {
+    display: initial;
+    color: white;
+}
+.people {
+	text-align: center;
+}
+.opis {
+	background: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX5772244.jpg);
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+.opis-left {
+	font-style: italic;
+}
+.counter-text {
+	color: rgb(1, 199, 235);
+	text-align: center;
+}
+.counter-number {
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+}
+.contact-info {
+	width: 100%;
+	float:left;
+	display:inline-block;
+}
+.container .navbar {
+	width: 100%;
+	text-align: center;
+	display:inline-block;
+	padding: 20px;
+}
+.navbar li>a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+.navbar .home {
+	color: rgb(1, 199, 235);
+}
+.hero .slogan {
+	margin-top:100px;
+	color: white;
+	font-size: 20px;
+	 background: rgba(0,0,0,0.7);
+	max-width: 800:
+	float: right;
+}
+.contact-info {
+	background-color: rgb(49, 51, 50);
+}
+.info-text {
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.info-h {
+	color: white;
+}
+.text-bold {
+	font-weight: bold;
+}
+.fa-youtube, .fa-google-plus, .fa-facebook, .fa-dribbble, .fa-instagram, .fa-twitter {
+	height: 100%;
+	font-size: 20px;
+	color: white;
+	background-color: rgb(1, 199, 235);
+	padding: 10px;
+	border-radius: 5px;
+}
+li i {
+	
+	padding: 5px;
+	color: white;
+
+	margin-right: 10px; !important;
+	width: 25px;
+	height: 25px;
+}
+li {
+	display: inline-block;
+}
+ul {
+	radius-left: 0;
+	padding-left: 0;
+}
+.footer {
+	background-color: rgb(49, 51, 50);
+	padding: 20px;
+}
+.social {
+	text-align: center;
+}
+footer>p {
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+.line {
+	letter-spacing: -2px;
+}
